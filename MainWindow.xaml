@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="89*"/>
-            <RowDefinition Height="284*"/>
-            <RowDefinition Height="46*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="53*"/>
-            <ColumnDefinition Width="739*"/>
-        </Grid.ColumnDefinitions>
-        <Button Content="Нажми меня" HorizontalAlignment="Left" Margin="247,51,0,0" VerticalAlignment="Top" Width="189" Height="63" Grid.Column="1" Grid.Row="1" AutomationProperties.Name="Нажми" Click="Button_Click"/>
-
+     <Button x:Name=" Btnl"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="150"
+            Height="30"
+            FontSize="17"
+            Content="Обычная кнопка"
+            Foreground="#006699"
+            Background="f0f0f0"
+            BorderBrush="#303030"/>
     </Grid>
+   
    
 </Window>
