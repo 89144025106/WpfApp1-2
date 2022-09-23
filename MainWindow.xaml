@@ -7,25 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="419*"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="109*"/>
-            <ColumnDefinition Width="287*"/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="Btnl"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Width="150"
-            Height="30"
-            FontSize="17"
-            Content="Обычная кнопка"
-            Foreground="#006699"
-            Background="#f0f0f0"
-            BorderBrush="#303030" Grid.Column="1" Margin="102,194,322,195"/>
-        <Button x:Name="Btn1" Content="Обычная кнопка" Grid.Column="1" Margin="75,138,0,185" HorizontalAlignment="Left" Width="260" Click="Btn1_Click">
+        
+        <Button x:Name="Btn1" Content="Обычная кнопка"  HorizontalAlignment="Center" Width="260" Height="50">
             <Button.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
@@ -35,6 +18,10 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <Canvas>
+            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100"  Click="Win1_Click"/>
+        </Canvas>
+        
     </Grid>
 
 </Window>
