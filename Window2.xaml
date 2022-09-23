@@ -15,6 +15,6 @@
             <TextBox Canvas.Left="70" Canvas.Top="70" Width="200" />
             <Button Canvas.Left="70" Canvas.Top="100" Content="Зарегистрироваться"/>
         </Canvas>
-        
+
     </Grid>
 </Window>
