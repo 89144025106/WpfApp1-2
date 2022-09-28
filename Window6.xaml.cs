@@ -22,6 +22,12 @@ namespace WpfApp1_Гуляева_Кристина_2
         public Window6()
         {
             InitializeComponent();
+           
+        }
+
+        
+        
+
         }
     }
-}
+

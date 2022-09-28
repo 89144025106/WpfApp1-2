@@ -5,23 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_Гуляева_Кристина_2"
         mc:Ignorable="d"
-        Title="Window6" Height="450" Width="800">
-    <Grid>
-        <WrapPanel Margin="10,0,-10,0">
+        Title="Window6" Height="613.524" Width="808.607">
+    <Grid Margin="-11,237,302,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="157*"/>
+            <ColumnDefinition Width="215*"/>
+            <ColumnDefinition Width="91*"/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Margin="27,108,-33,0" Grid.ColumnSpan="4">
             <Label Content="Последние документы"/>
             <Button Content="Открыть" Width=" 60" Height="30" HorizontalAlignment="Left" />
             <Button Content="Сохронить" Width=" 60" Height="30" HorizontalAlignment="Left"/>
             <Button Content="Закрыть" Width=" 60" Height="30" HorizontalAlignment="Left"/>
             <Button Content="Обработать" Width=" 60" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="О програме " Width=" 60" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="A" Width="80" Height="85"/>
-            <Button Content="B" Width="80" Height="85"/>
-            <Button Content="C" Width="80" Height="85"/>
-            <Button Content="D" Width="80" Height="85"/>
-            <Button Content="E" Width="80" Height="85"/>
-            <Button Content="F" Width="80" Height="85"/>
+            <Button Content="О програме " Width="83" Height="30" HorizontalAlignment="Left"/>
+            <Button Content="A" Width="80" Height="85" Background="Yellow" Click="Button_Click" />
+            <Button Content="B" Width="80" Height="85" Background="Red" />
+            <Button Content="C" Width="80" Height="85" Background="Green" />
+            <Button Content="D" Width="80" Height="85" Background="Blue" />
+            <Button Content="E" Width="80" Height="85" Background="Gray" />
+            <Button Content="F" Width="80" Height="85" Background="PeachPuff" />
 
-
-        </WrapPanel>   
+        </WrapPanel>
     </Grid>
 </Window>
