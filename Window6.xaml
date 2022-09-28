@@ -9,13 +9,18 @@
     <Grid>
         <WrapPanel Margin="10,0,-10,0">
             <Label Content="Последние документы"/>
-            <Button Content="Открыть"/>
-            <Button Content="Сохронить"/>
-            <Button Content="Закрыть"/>
-            <Button Content="Обработать"/>
-            <Button Content="О програме "/>
-            <Button Content="Button" Height="35" Width="81"/>
-            
+            <Button Content="Открыть" Width=" 60" Height="30" HorizontalAlignment="Left" />
+            <Button Content="Сохронить" Width=" 60" Height="30" HorizontalAlignment="Left"/>
+            <Button Content="Закрыть" Width=" 60" Height="30" HorizontalAlignment="Left"/>
+            <Button Content="Обработать" Width=" 60" Height="30" HorizontalAlignment="Left"/>
+            <Button Content="О програме " Width=" 60" Height="30" HorizontalAlignment="Left"/>
+            <Button Content="A" Width="80" Height="85"/>
+            <Button Content="B" Width="80" Height="85"/>
+            <Button Content="C" Width="80" Height="85"/>
+            <Button Content="D" Width="80" Height="85"/>
+            <Button Content="E" Width="80" Height="85"/>
+            <Button Content="F" Width="80" Height="85"/>
+
 
         </WrapPanel>   
     </Grid>
